@@ -1,4 +1,4 @@
-module witch
+module github.com/nkondratev/witch
 
 go 1.17
 
