@@ -4,6 +4,7 @@ Copyright © 2025 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
+	"github.com/nkondratev/witch/utils"
 	"github.com/spf13/cobra"
 )
 
@@ -13,7 +14,7 @@ var initCmd = &cobra.Command{
 	Short: "Create project in current directory.",
 	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
-		cmdInit()
+		utils.CmdInit()
 	},
 }
 
